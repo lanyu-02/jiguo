@@ -1,0 +1,334 @@
+.banner {
+    background: url(img/original.jpg) no-repeat -160px 0px;
+    height: 300px;
+}
+
+.banner .wrap5 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banner .wrap5 .text4 {
+    animation: freedom 1s;
+    float: right;
+    text-align: right;
+}
+
+@keyframes freedom {
+    from {
+        transform: translate(200px, -200px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+.banner .wrap5 .text4 h1 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.banner .wrap5 .text4 .ppp1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner .wrap5 .text4 .ppp1 span {
+    background-color: #f7d097;
+    margin-left: 10px;
+    height: 35px;
+    padding: 5px;
+}
+
+.banner .wrap5 .text4 .ppp1 span a {
+    color: #fff;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.banner .wrap5 .text4 .ppp2 {
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner .wrap5 .text4 .ppp3 {
+    margin-top: 10px;
+}
+
+.banner .wrap5 .text4 .ppp3 button {
+    background-color: #fe5341;
+    color: #fff;
+    width: 200px;
+    height: 45px;
+    border: none;
+}
+
+.frame {
+    position: relative;
+}
+
+.frame .pre {
+    cursor: pointer;
+    position: absolute;
+    float: left;
+    top: 150px;
+    left: 190px;
+}
+
+.frame .next {
+    cursor: pointer;
+    position: absolute;
+    float: right;
+    top: 150px;
+    right: 212px;
+}
+
+.frame .wrap1 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.frame .wrap1 .scroll h2 {
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+.frame .wrap1 .scroll .pos {
+    height: 315px;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs {
+    width: 1000px;
+    overflow: hidden;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs .list {
+    width: 3000px;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs .list li {
+    float: left;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 220px;
+    height: 285px;
+    background-color: #ffffff;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs .list li .border {
+    border: solid 1px #dedfe1;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs .list li .border img {
+    width: 220px;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs .list li .border .p1 {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs .list li .border .p2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs .list li .border .p2 span {
+    border: solid 1px #fc5946;
+    color: #fc5946;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs .list li .border .p3 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs .list li .border .p3 .s1 {
+    color: #fc5946;
+}
+
+.frame .wrap1 .scroll .pos .inner .imgs .list li .border .p4 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #fc5946;
+}
+
+.frame4 {
+    background-color: #f7f7f7;
+}
+
+.frame4 .title4 {
+    background-color: #fff;
+    height: auto;
+}
+
+.frame4 .title4 h4 {
+    text-align: center;
+    line-height: 65px;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.frame4 .title4 .more {
+    width: 331px;
+    margin: 0 auto;
+}
+
+.frame4 .title4 .more div {
+    font-size: 14px;
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    color: #000;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.frame4 .title4 .more .red11 {
+    border-bottom: 3px solid #FF5339;
+}
+
+.frame4 .title4 .more .red11 a {
+    color: #FF5339;
+}
+
+.frame4 .title4 .detail {
+    line-height: 30px;
+    height: 30px;
+    border: solid 1px #f7f7f7;
+    text-align: center;
+}
+
+.frame4 .title4 .detail div {
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.frame4 .title4 .detail div a {
+    color: #a8a2a2;
+}
+
+.frame4 .title4 .detail .back a {
+    color: #000;
+}
+
+.frame4 .wrap4 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.frame4 .wrap4 .content4 {
+    padding-top: 20px;
+    height: 1200px;
+}
+
+.frame4 .wrap4 .content4 ul .list4 {
+    height: auto;
+}
+
+.frame4 .wrap4 .content4 ul .li1 {
+    overflow: hidden;
+    border: solid 1px #dedfe1;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 28px;
+    float: left;
+    width: 220px;
+    height: 280px;
+    background-color: #ffffff;
+    margin-bottom: 20PX;
+}
+
+.frame4 .wrap4 .content4 ul .li1 .img2 {
+    width: 220px;
+    height: 130px;
+}
+
+.frame4 .wrap4 .content4 ul .li1 .pp1 {
+    margin-top: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+
+.frame4 .wrap4 .content4 ul .li1 .ppp1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.frame4 .wrap4 .content4 ul .li1 .ppp1 span {
+    border: solid 1px #fc5946;
+    color: #fc5946;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.frame4 .wrap4 .content4 ul .li1 .ppp3 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.frame4 .wrap4 .content4 ul .li1 .ppp3 .s1 {
+    color: #fc5946;
+}
+
+.frame4 .wrap4 .content4 ul .li1 .ppp4 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #fc5946;
+    margin-bottom: 20px;
+}
+
+.wrap6 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.wrap6 .more2 {
+    cursor: pointer;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.wrap6 .more2 .i1 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.wrap6 .more2 .i2 {
+    display: inline-block;
+    display: none;
+    height: 15px;
+    width: 15px;
+    margin-top: 10px;
+}
+
+.wrap6 .more2 span {
+    display: inline-block;
+    color: #ff5547;
+}

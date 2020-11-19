@@ -1,0 +1,156 @@
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.main>h1 {
+    margin-top: 50px;
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    top: 223px;
+    padding-left: 580px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.nav>li {
+    float: left;
+    width: 166px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.nav>li:hover {
+    border-bottom: 5px solid #FF5339;
+}
+
+.nav>li>a {
+    font-size: 16px;
+}
+
+.nav1 {
+    position: absolute;
+    top: 183px;
+    left: 160px;
+}
+
+.nav1>li {
+    float: left;
+    width: 166px;
+    padding-bottom: 12px;
+}
+
+.nav1>li:nth-child(4)>a {
+    color: black;
+}
+
+.nav1>li>a {
+    color: #a8a2a2;
+}
+
+.nav1>li>a:hover {
+    color: black;
+}
+
+.nav1>li>a {
+    font-size: 16px;
+}
+
+#prolist {
+    width: 1000px;
+    margin-left: 300px;
+    height: 1150px;
+    font-size: 12px;
+}
+
+#prolist>li>img {
+    width: 199px;
+    height: 130px;
+}
+
+#prolist>li {
+    margin-top: 20px;
+    float: left;
+    margin-right: 40px;
+    width: 202px;
+    border: 1px solid #E9E9E9;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 230px;
+    position: relative;
+}
+
+#prolist>li>img:hover {
+    animation: free 2s infinite;
+}
+
+.pro-num {
+    position: absolute;
+    top: 165px;
+    left: 60px;
+}
+
+.prolist-color {
+    background-color: #F7F7F7;
+    margin-top: 180px;
+    position: relative;
+}
+
+.apply {
+    color: #FF5339;
+}
+
+.tonum {
+    color: #FF5339;
+}
+
+.num1 {
+    border: 1px solid #FF5339;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: -10px;
+}
+
+.num2 {
+    border: 1px solid #FF5339;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.pro-num>p {
+    margin-top: 5px;
+}
+
+.more {
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    bottom: 35px;
+    left: 700px;
+    color: #B0B0B2;
+}
+
+.footer {
+    margin-top: 53px;
+}
+
+@keyframes free {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.n-try {
+    border-bottom: 5px solid #FF5339;
+}

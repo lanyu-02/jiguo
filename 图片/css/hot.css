@@ -1,0 +1,148 @@
+                  .main {
+                      width: 1000px;
+                      margin: 0 auto;
+                      text-align: center;
+                      position: relative;
+                      margin-top: 50px;
+                  }
+                  
+                  .nav {
+                      position: absolute;
+                      top: 133px;
+                      left: 250px;
+                  }
+                  
+                  .nav>li {
+                      float: left;
+                      width: 166px;
+                      padding-bottom: 12px;
+                  }
+                  
+                  .nav>li:hover {
+                      border-bottom: 5px solid #FF5339;
+                  }
+                  
+                  .nav>li:nth-child(2) {
+                      border-bottom: 5px solid #FF5339;
+                  }
+                  
+                  .nav>li>a {
+                      font-size: 16px;
+                  }
+                  
+                  #prolist {
+                      width: 1000px;
+                      margin-left: 300px;
+                      font-size: 12px;
+                  }
+                  
+                  #prolist>li>img {
+                      width: 199px;
+                      height: 130px;
+                  }
+                  
+                  #prolist>li {
+                      margin-top: 20px;
+                      float: left;
+                      margin-right: 40px;
+                      width: 202px;
+                      border: 1px solid #E9E9E9;
+                      border-radius: 10px;
+                      overflow: hidden;
+                      padding-bottom: 20px;
+                      height: 230px;
+                  }
+                  
+                  #prolist>li>img:hover {
+                      animation: free 2s infinite;
+                  }
+                  
+                  .price {
+                      float: left;
+                      color: #DF4E5D;
+                      margin-top: 25px;
+                      margin-left: 10px;
+                  }
+                  
+                  .like {
+                      float: right;
+                      margin-right: 10px;
+                      margin-top: 25px;
+                  }
+                  
+                  .des {
+                      color: #E9E9E9;
+                  }
+                  
+                  .prolist-color {
+                      background-color: #F7F7F7;
+                      margin-top: 130px;
+                      padding-bottom: 20px;
+                  }
+                  
+                  .more {
+                      margin-top: 57px;
+                      text-align: center;
+                      font-size: 16px;
+                      color: #FF5339;
+                  }
+                  
+                  .footer {
+                      margin-top: 53px;
+                  }
+                  
+                  @keyframes free {
+                      0% {
+                          opacity: 1;
+                      }
+                      50% {
+                          opacity: 0;
+                      }
+                      100% {
+                          opacity: 1;
+                      }
+                  }
+                  
+                  #prolist1 {
+                      width: 1000px;
+                      margin-left: 300px;
+                      font-size: 13px;
+                  }
+                  
+                  #prolist1>li>img {
+                      width: 199px;
+                      height: 130px;
+                  }
+                  
+                  #prolist1>li {
+                      margin-top: 20px;
+                      float: left;
+                      margin-right: 40px;
+                      width: 202px;
+                      border: 1px solid #E9E9E9;
+                      border-radius: 10px;
+                      overflow: hidden;
+                      padding-bottom: 20px;
+                      height: 230px;
+                  }
+                  
+                  #prolist1>li>img:hover {
+                      animation: free 2s infinite;
+                  }
+                  
+                  .price {
+                      float: left;
+                      color: #DF4E5D;
+                      margin-top: 25px;
+                      margin-left: 10px;
+                  }
+                  
+                  .like {
+                      float: right;
+                      margin-right: 10px;
+                      margin-top: 25px;
+                  }
+                  
+                  .des {
+                      color: #E9E9E9;
+                  }

@@ -1,0 +1,90 @@
+.m-wrap {
+    background-color: #F7F7F7;
+}
+
+.inside {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main {
+    width: 700px;
+    padding-top: 20px;
+}
+
+.m-nav {
+    color: #A2A2A4;
+}
+
+.m-list {
+    background-color: #FEFEFE;
+    margin-top: 20px;
+    padding-top: 35px;
+    font-size: 13px;
+}
+
+.list-header {
+    border-bottom: 1px solid #DFDFDF;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.m-name {
+    margin-top: 25px;
+    color: #A2A2A4;
+}
+
+.m-name>span {
+    float: right;
+    margin-right: 25px;
+}
+
+.m-content {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.m-content>h4 {
+    text-align: center;
+}
+
+.m-content>img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.m-footer {
+    margin-top: 65px;
+    padding-left: 25px;
+    color: #A2A2A4;
+    padding-bottom: 40px;
+}
+
+.m-right {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    text-align: center;
+}
+
+.r-like {
+    float: left;
+    width: 135px;
+    height: 85px;
+    border: 1px solid #DFDFDF;
+    padding-top: 25px;
+    border-radius: 5px;
+    color: #A2A2A4;
+}
+
+.r-share {
+    float: left;
+    width: 135px;
+    height: 85px;
+    border: 1px solid #DFDFDF;
+    border-left: none;
+    padding-top: 25px;
+    border-radius: 5px;
+    color: #A2A2A4;
+}

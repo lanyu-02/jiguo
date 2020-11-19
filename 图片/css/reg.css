@@ -1,0 +1,99 @@
+body {
+    background-color: #F7F7F7;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 780px;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #D6D6D6;
+    position: relative;
+}
+
+.m-reg {
+    width: 110px;
+    font-size: 16px;
+    border-left: 5px solid #FF5339;
+    padding-left: 20px;
+    margin-left: -1px;
+}
+
+form {
+    position: absolute;
+    top: 123px;
+    left: 300px;
+}
+
+form>div>input {
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 25px;
+    color: #B7B8BC;
+    background-color: #F7F7F7;
+    border: 1px solid #EFEFEF;
+    border-radius: 10px;
+}
+
+.phone {
+    width: 400px;
+}
+
+.t-yanz {
+    width: 245px;
+}
+
+.s-yanz {
+    width: 245px;
+}
+
+#user {
+    width: 400px;
+}
+
+#pass {
+    width: 400px;
+}
+
+#repass {
+    width: 400px;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    color: #B7B8BC;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.submit {
+    width: 400px;
+    height: 50px;
+    background-color: #FF5339;
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+form>div {
+    position: relative;
+}
+
+form>div>img {
+    position: absolute;
+    top: 30px;
+    left: 290px;
+}
+
+.footer {
+    margin-top: 20px;
+}

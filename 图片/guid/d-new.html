@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../dot/doT.min.js"></script>
+    <link rel="stylesheet" href="../css/d-new.css">
+    <link rel="stylesheet" href="../css/public.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header clear-fix">
+            <div class="logonew"><img src="../img/logonew.png" alt=""></div>
+            <ul class="clear-fix">
+                <li class="h-shouye">
+                    首页
+                </li>
+                <li class="h-kuwan">
+                    酷玩
+                </li>
+                <li class="h-daogou">
+                    导购
+                </li>
+                <li class="h-shiyong">
+                    试用
+                </li>
+                <li class="h-baogao">
+                    报告
+                </li>
+            </ul>
+            <img src="../css/img/search.png" alt="" class="h-search">
+            <button class="h-btn">注册</button>
+            <button class="h1-btn">登录</button>
+        </header>
+    </div>
+    <main class="main">
+        <h1>导购清单</h1>
+        <ul class="nav clear-fix">
+            <li class="n-new">
+                <a href="">最新</a>
+            </li>
+            <li class="n-hot">
+                <a href="">最热</a>
+            </li>
+        </ul>
+    </main>
+    <div class="prolist-color clear-fix">
+        <ul id="prolist" class="clear-fix"></ul>
+        <div class="more"><img src="../css/img/more.png" alt=""><span> 点击加载更多</span></div>
+        <ul id="prolist1" class="clear-fix" hidden></ul>
+    </div>
+    <footer class="footer clear-fix">
+        <div class="foot">
+            <div class="f-icon"> <img src="../img/code.png" alt=""><img src="../img/logoImg.jpg" alt="">
+                <div class="f-text">
+                    <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+                    <p>微信添加“jiguo”获取我们的服务。</p>
+                </div>
+            </div>
+            <ul class="f-content">
+                <li>
+                    <p><a href=""> 免费试用</a></p>
+                    <p> <a href="">
+                    试用流程
+                 </a></p>
+                    <p> <a href="">
+                    如何提高成功率
+                    </a>
+                    </p>
+                </li>
+                <li>
+                    <p> <a href="">
+                友情链接
+                </a></p>
+                    <p>
+                        <a href="">智东西</a>
+                        <a href="">WEIBUSI</a>
+                    </p>
+                    <p>
+                        <a href="">搜狐IT</a>
+                        <a href="">腾讯科技</a>
+                    </p>
+                    <p>
+                        <a href="">搜狐数码</a>
+                        <a href="">凤凰科技</a>
+                    </p>
+                    <p>
+                        <a href="">凤凰数码</a>
+                        <a href="">PConline</a>
+                    </p>
+                    <p>
+                        <a href="">泡泡网</a>
+                        <a href="">3W咖啡</a>
+                    </p>
+                    <p>
+                        <a href="">
+                            <a href=""></a>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">极客公园</a>
+                        <a href="">易迅易启玩</a>
+                    </p>
+                    <p>
+                        <a href="">果库</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="">购买攻略</a>
+                    </p>
+                    <p>
+                        <a href="">美亚海淘教程</a>
+                    </p>
+                    <p>
+                        <a href="">日亚海淘教程</a>
+                    </p>
+                    <p>
+                        <a href="">海淘转运攻略</a>
+                    </p>
+                    <p>
+                        <a href="">kickstarter </a>
+                        <a href="">众筹购买攻略</a>
+                    </p>
+                    <p>
+                        <a href="">indiegogo</a>
+                        <a href="">众筹购买攻略</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="">厂商合作</a>
+                    </p>
+                    <p>
+                        <a href="">关于极果</a>
+                    </p>
+                    <p>
+                        <a href="">联系我们</a>
+                    </p>
+                    <p>
+                        <a href="">商务合作：BD@jiguo.com</a>
+                    </p>
+                    <p>
+                        <a href="">CEO邮箱：CEO@jiguo.com</a>
+                    </p>
+                </li>
+            </ul>
+            <div class="f-last">@2016 极果版权所有</div>
+        </div>
+    </footer>
+    <script id="list" type="text/x-dot-template ">
+        {{~it:value:index}}
+        <li class='clear-fix'>
+            <img src="{{=value.img}}" alt="">
+            <p class='text'>{{=value.text}}</p>
+            <span class="like">
+            <span> <img src="../css/img/xin.png" alt=""></span>
+            <a href="">{{=value.like}}</a>
+            <span> <img src="../css/img/reply.png" alt=""></span>
+            <a href="">{{=value.words}}</a>
+            </span>
+        </li>
+        {{~}}
+    </script>
+    <script>
+        $.ajax({
+            url: 'http://192.168.1.64:3000/guid/new',
+            success: function(res) {
+                console.log(res);
+                var date = res;
+                var dot_ = doT.template(document.getElementById('list').innerText);
+                prolist.innerHTML = dot_(date);
+            }
+        })
+    </script>
+    <script>
+        $('.more').on('click', function() {
+            $(this).find('img').attr('src', '../css/img/loading-icon.gif');
+            $(this).find('span').text('正在加载');
+            var timer = setTimeout(function() {
+                $.ajax({
+                    url: 'http://192.168.1.64:3000/guid/new',
+                    success: function(res) {
+                        console.log(res);
+                        var date = res;
+                        var dot_ = doT.template(document.getElementById('list').innerText);
+                        prolist1.innerHTML = dot_(date);
+                    }
+                });
+                $('.more').hide();
+                $('.prolist-color').css('height', '2200px');
+                $('#prolist1').show();
+            }, 2000)
+        });
+        $('.n-hot').on('click', function() {
+            window.open('./导购-最热.html')
+        });
+        $('.h-shouye').on('click', function() {
+            window.open('./网站首页.html')
+        });
+        $('.h-kuwan').on('click', function() {
+            window.open('./play/发现酷玩.html')
+        });
+        $('.h-daogou').on('click', function() {
+            window.open('./guid/导购-最热.html')
+        });
+        $('.h-shiyong').on('click', function() {
+            window.open('./use/试用--大众试用.html')
+        });
+        $('.h-baogao').on('click', function() {
+            window.open('./report/报告--最新.html')
+        });
+    </script>
+</body>
+
+</html>
