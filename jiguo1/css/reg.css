@@ -82,6 +82,8 @@ form>div>input {
     font-size: 14px;
     margin-top: 25px;
     border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
 }
 
 form>div {
